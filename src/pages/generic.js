@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import BannerResearch from '../components/BannerResearch'
 
 import pic11 from '../assets/images/pic11.jpg'
 import pic08 from '../assets/images/pic08.jpg'
@@ -11,6 +12,8 @@ const Generic = props => (
       <title>Generic - Forty by HTML5 UP</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
+
+    <BannerResearch />
 
     <div id="main" className="alt">
       <section id="one">

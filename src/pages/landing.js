@@ -13,7 +13,7 @@ import peopleIsaacSim from '../assets/images/IsaacSim.jpg'
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Landing - Forty by HTML5 UP</title>
+      <title>People | CAILAB</title>
       <meta name="description" content="Landing Page" />
     </Helmet>
 
@@ -23,9 +23,9 @@ const Landing = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>People</h2>
+            <h2>Professor</h2>
           </header>
-          <p>연구실에 함께하고있는 사람들에 대한 정보입니다.</p>
+          {/* <p>연구실에 함께하고있는 사람들에 대한 정보입니다.</p> */}
         </div>
       </section>
       <section id="two" className="spotlights">
@@ -39,17 +39,40 @@ const Landing = props => (
                 <h3>Jin Young Kim</h3>
                 <h4>Professor</h4>
               </header>
-              <p>바이오그래피 작성</p>
-              <ul className="actions">
+              <p>
+                ● Seoul National University, Ph. D. degree
+                <br />● Princeton University, Postdoctoral Research Fellow
+                <br />● SK Telecom Research Institute, Senior Researcher
+                <br />● Massachusettes Institute of Technology (M.I.T), Visiting
+                Scientist
+                <br />● Now) KwangWoon University, Professor
+                <br />
+              </p>
+              <ul className="icons">
                 <li>
-                  <Link to="/generic" className="button">
-                    Action button (의견 제시 요망)
-                  </Link>
+                  <a
+                    href="mailto:jinyoung@kw.ac.kr"
+                    className="icon alt fa-envelope"
+                  >
+                    <span className="label">email</span>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </section>
+      </section>
+    </div>
+    <div id="main">
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h2>Graduated students</h2>
+          </header>
+          {/* <p>연구실에 함께하고있는 사람들에 대한 정보입니다.</p> */}
+        </div>
+      </section>
+      <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
             <img src={peopleIsaacSim} alt="" />
@@ -60,12 +83,18 @@ const Landing = props => (
                 <h3>Isaac Sim</h3>
                 <h4>Ph.D. Candidates</h4>
               </header>
-              <p>바이오그래피 작성</p>
-              <ul className="actions">
+              <p>
+                ● KwangWoon University, Bachelor
+                <br />● Research area : Backscatter, VLC
+              </p>
+              <ul className="icons">
                 <li>
-                  <Link to="/generic" className="button">
-                    Action button (의견 제시 요망)
-                  </Link>
+                  <a
+                    href="mailto:dltkr34@naver.com"
+                    className="icon alt fa-envelope"
+                  >
+                    <span className="label">email</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -78,14 +107,79 @@ const Landing = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Sed nunc ligula</h3>
+                <h3>Gil Dong Hong</h3>
               </header>
-              <p>바이오그래피 작성</p>
-              <ul className="actions">
+              <p>dd</p>
+              <ul className="icons">
                 <li>
-                  <Link to="/generic" className="button">
-                    Action button (의견 제시 요망)
-                  </Link>
+                  <a
+                    href="mailto:yakrkr@naver.com"
+                    className="icon alt fa-envelope"
+                  >
+                    <span className="label">email</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+    <div id="main">
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h2>Undergraduated students</h2>
+          </header>
+          {/* <p>연구실에 함께하고있는 사람들에 대한 정보입니다.</p> */}
+        </div>
+      </section>
+      <section id="two" className="spotlights">
+        <section>
+          <Link to="/generic" className="image">
+            <img src={pic08} alt="" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>Gil Dong Hong</h3>
+                <h4>Ph.D. Candidates</h4>
+              </header>
+              <p>
+                ● KwangWoon University, Bachelor
+                <br />● Research area : Backscatter, VLC
+              </p>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="mailto:dltkr34@naver.com"
+                    className="icon alt fa-envelope"
+                  >
+                    <span className="label">email</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <Link to="/generic" className="image">
+            <img src={pic09} alt="" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>Gil Dong Hong</h3>
+              </header>
+              <p>dd</p>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="mailto:yakrkr@naver.com"
+                    className="icon alt fa-envelope"
+                  >
+                    <span className="label">email</span>
+                  </a>
                 </li>
               </ul>
             </div>

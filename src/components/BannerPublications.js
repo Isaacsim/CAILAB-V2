@@ -1,14 +1,14 @@
 import React from 'react'
 
-const BannerLanding = props => (
+const BannerPublications = props => (
   <section id="banner" className="style2 major">
     <div className="inner">
       <header className="major">
-        <h1>People</h1>
+        <h1>Publications</h1>
       </header>
       <div className="content">
         <p>
-          This page introduces the research groups of CAI Lab.
+          This page shows the research results of CAILAB.
           <br />
         </p>
       </div>
@@ -16,4 +16,4 @@ const BannerLanding = props => (
   </section>
 )
 
-export default BannerLanding
+export default BannerPublications

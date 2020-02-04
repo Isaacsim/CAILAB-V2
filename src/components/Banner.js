@@ -4,9 +4,11 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Communications and Artificial Intelligent Laboratory - CAI Lab.</h1>
+        <h1>
+          Communications and Artificial Intelligence Laboratory - CAI Lab.
+        </h1>
       </header>
-      <div className="content">
+      {/* <div className="content">
         <p>
           연구실 간략한 소개를 작성 연구실 간략한 소개를 작성 연구실 간략한
           소개를 작성
@@ -21,7 +23,7 @@ const Banner = props => (
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   </section>
 )

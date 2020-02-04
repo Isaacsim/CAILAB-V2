@@ -30,45 +30,45 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>People</h3>
-                <p>연구실 연구원 목록</p>
+                <p>연구원</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Research</h3>
-                <p>연구목록</p>
+                <p>연구</p>
               </header>
               <Link to="/generic" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>Publications</h3>
-                <p>실적 현황</p>
+                <p>실적</p>
               </header>
-              <Link to="/elements" className="link primary"></Link>
+              <Link to="/publications" className="link primary"></Link>
             </article>
-            {/* <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article> */}
+            {/* <article style={{ backgroundImage: `url(${pic04})` }}>
+              <header className="major">
+                <h3>Ipsum</h3>
+                <p>Nisl sed aliquam</p>
+              </header>
+              <Link to="/landing" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${pic05})` }}>
+              <header className="major">
+                <h3>Consequat</h3>
+                <p>Ipsum dolor sit amet</p>
+              </header>
+              <Link to="/landing" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${pic06})` }}>
+              <header className="major">
+                <h3>Etiam</h3>
+                <p>Feugiat amet tempus</p>
+              </header>
+              <Link to="/landing" className="link primary"></Link>
+            </article> */}
           </section>
           <section id="two">
             <div className="inner">

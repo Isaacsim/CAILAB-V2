@@ -8,9 +8,28 @@ const Header = props => (
       <strong>CAILAB</strong> <span></span>
     </Link>
     <nav>
-      <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
-        Menu
-      </a>
+      <ul className="actions small menu-btn">
+        <li>
+          <Link to="/landing" className="">
+            People
+          </Link>
+        </li>
+        <li>
+          <Link to="/generic" className="">
+            Research
+          </Link>
+        </li>
+        <li>
+          <Link to="/publications" className="">
+            Publications
+          </Link>
+        </li>
+        <li>
+          <Link to="#contact" className="">
+            Contact
+          </Link>
+        </li>
+      </ul>
     </nav>
   </header>
 )
